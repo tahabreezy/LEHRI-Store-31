@@ -1,4 +1,4 @@
-const express = require('express');
+/* const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 const app = express();
@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.get('/api/products', async (req, res) => {
   try {
-    const response = await axios.get('https://freeapi.gerasim.in/api/BigBasket/GetAllProducts');
+    const response = await axios.get('https://freeapi.gerasim.in/api/BigBasket/');
     res.json(response.data);
   } catch (error) {
     res.status(500).send('Error fetching products');
@@ -18,4 +18,4 @@ app.get('/api/products', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
-});
+}); */

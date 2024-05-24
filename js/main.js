@@ -10,7 +10,7 @@
         }, 1);
     };
     spinner(0);
-    //fetch products
+    /* //fetch products
     async function fetchProducts() {
         try {
           const response = await fetch('http://localhost:3001/api/products');
@@ -23,7 +23,7 @@
       }
       
       fetchProducts();
-      
+       */
 
 
     // Fixed Navbar
