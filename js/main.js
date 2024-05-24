@@ -10,6 +10,20 @@
         }, 1);
     };
     spinner(0);
+    //fetch products
+    async function fetchProducts() {
+        try {
+          const response = await fetch('http://localhost:3001/api/products');
+          const products = await response.json();
+          // Update your UI with the products data
+          console.log(products);
+        } catch (error) {
+          console.error('Error fetching products:', error);
+        }
+      }
+      
+      fetchProducts();
+      
 
 
     // Fixed Navbar
